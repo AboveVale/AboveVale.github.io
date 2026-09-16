@@ -1,0 +1,240 @@
+/* general */
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Ubuntu', sans-serif;
+	background-color: #000;
+}
+.back1 {
+	background-image: url('back1.jpg');
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; 
+}
+.back2 {
+	background-image: url('back2.jpg');
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; 
+}
+.back3 {
+	background-image: url('back3.jpg');
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; 
+}
+
+/* top */
+
+.top {
+	position: fixed;
+	width: 100%;
+	height: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background: #1e3668;
+	z-index: 10;
+	-webkit-box-shadow: 0px 1px 15px 1px #000000; 
+	box-shadow: 0px 1px 15px 1px #000000;
+	margin-top: -70px;
+}
+.topleft {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	left: 10px;
+}
+.topleft img {
+	width: 50px;
+	height: 50px;
+}
+.topmid {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	font-size: 37px;
+	color: white;
+}
+.topright {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	right: 10px;
+}
+
+/* body index */
+
+.panel1 {
+	background: rgba(0,0,0,0.4);
+	width: 100%;
+	height: 50vh;
+	position: relative;
+	padding-left: 20px;
+	margin-top: 70px;
+	box-sizing: border-box;
+	z-index: 1;
+	overflow: hidden;
+}
+.panel1left {
+	position: absolute;
+	background: rgba(0, 0, 0, 0.6);
+	left: 0;
+	height: 100%;
+	color: #ccc;
+	padding: 20px;
+	padding-top: 0px !important;
+	box-sizing: border-box;
+	margin-left: 60px;
+	margin-top: 60px;
+	width: 30vw;
+}
+.panel1left p {
+	line-height: 1.5;
+}
+.panel1right {
+	position: absolute;
+	background: #fff;
+	right: 0;
+	width: 30vw;
+	height: 100%;
+	color: #000;
+	box-sizing: border-box;
+	background: url('gamble.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; 
+	-webkit-box-shadow: -2px 0px 15px 5px #000000; 
+	box-shadow: -2px 0px 15px 5px #000000;
+}
+.panel2 {
+	background: rgba(0,0,0,0.6);
+	width: 100%;
+	height: 50vh;
+	position: relative;
+	padding-left: 20px;
+	box-sizing: border-box;
+	z-index: 2;
+	overflow: hidden;
+}
+.panel2left {
+	position: absolute;
+	background: #000;
+	left: 0;
+	width: 30vw;
+	height: 100%;
+	color: #fff;
+	padding: 20px;
+	box-sizing: border-box;
+	background: url('bet.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; 
+	-webkit-box-shadow: 2px 0px 15px 5px #000000; 
+	box-shadow: 2px 0px 15px 5px #000000;
+}
+.panel2right {
+	position: absolute;
+	background: rgba(0,0,0,0.6);
+	right: 0;
+	padding-left: 20px;
+	width: 30vw;
+	margin-right: 60px;
+	margin-top: 60px;
+	height: 100%;
+	color: #ccc;
+	box-sizing: border-box;
+}
+.panel3 {
+	background: rgba(0,0,0,0.4);
+	width: 100%;
+	height: 50vh;
+	position: relative;
+	padding-left: 20px;
+	box-sizing: border-box;
+	z-index: 4;
+	overflow: hidden;
+}
+.panel3left {
+	position: absolute;
+	background: rgba(0,0,0,0.6);
+	left: 0;
+	height: 100%;
+	color: #ccc;
+	padding: 20px;
+	padding-top: 0px !important;
+	box-sizing: border-box;
+	margin-left: 60px;
+	margin-top: 60px;
+	width: 30vw;
+	overflow: hidden;
+}
+.panel3left p {
+	line-height: 1.5;
+}
+.panel3right {
+	position: absolute;
+	background: #fff;
+	right: 0;
+	width: 30vw;
+	height: 100%;
+	color: #000;
+	box-sizing: border-box;
+	background: url('highstakes.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; 
+	filter: brightness(0.8);
+	-webkit-box-shadow: -2px 0px 15px 5px #000000; 
+	box-shadow: -2px 0px 15px 5px #000000;
+}
+.footer {
+	height: 200%;
+	background-color: red;
+	margin-top: -7px;
+}
+.panel4 {
+	background-color: #000;
+	color: #fff;
+	width: 50%;
+	height: 50%;
+	padding: 20px;
+	box-sizing: border-box;
+}
+.panel4left {
+	width: 50%;
+	line-height: 1.5;
+}
+.footerleft {
+	width: 100%;
+	position: absolute;
+	left: 0;
+}
+.footerright {
+	width: 50%;
+	height: 85%;
+	position: absolute;
+	right: 0;
+	background: url('discord.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; 
+	filter: grayscale(1) brightness(0.7);
+}
+a {
+	color: #fff;
+}
+.separator {
+	text-align: center;
+	color: #cd9f6a;
+	background: #000;
+	margin-top: -8px;
+}
+hr {
+	border-color: #cd9f6a;
+	background-color: #cd9f6a;
+}
